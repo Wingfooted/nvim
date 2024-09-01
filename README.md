@@ -9,7 +9,8 @@ To run this config there is a prerequisite that you have nvim installed allready
 To install this config perform the following
 
 ```bash
-mv ~/.config/nvim ~/.config/nvim.bak && git clone https://github.com/Wingfooted/nvim ~/.config/nvim
+mv ~/.config/nvim ~/.config/nvim.bak
+git clone https://github.com/Wingfooted/nvim ~/.config/nvim
 ```
 
 Upon entry good to run the following commands
