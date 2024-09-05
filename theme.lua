@@ -1,1 +1,1 @@
-return 'monet'
+return 'rose-pine'

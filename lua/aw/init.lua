@@ -24,5 +24,4 @@ require("lazy").setup({
 
 require("aw.options")
 require("aw.remap")
-require("aw.magma")
 require("aw.themes")
