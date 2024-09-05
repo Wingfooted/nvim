@@ -26,12 +26,15 @@ return {
 
     mason_lspconfig.setup({
       -- list of servers for mason to install
+	  -- https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
       ensure_installed = {
         "lua_ls",
         "pylsp",
+		"html", "cssls", "sqlls"
       },
     })
 
+	-- https://mason-registry.dev/registry/list
     mason_tool_installer.setup({
       ensure_installed = {
         "prettier", -- prettier formatter
@@ -40,6 +43,7 @@ return {
         "black", -- python formatter
         "pylint",
         "eslint_d",
+		"djlint", -- jinja / django html linter
       },
     })
   end,
