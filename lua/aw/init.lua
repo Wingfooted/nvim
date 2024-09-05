@@ -1,7 +1,4 @@
-
-require("aw.options")
-require("aw.remap")
-require("aw.magma")
+vim.g.mapleader = " "
 
 -- Lazy Loading
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
@@ -23,15 +20,9 @@ require("lazy").setup({
     change_detection = { notify = false }
 })
 
---Colorscheme
-require("monet").setup {
-	transparent_background = true,
-	semantic_tokens = true,
-	dark_mode = true,
-	highlight_overrides= {},
-	color_overrides = {},
-	styles = {}
-}
-vim.cmd.colorscheme 'monet'
+-- Theme switcher
 
-
+require("aw.options")
+require("aw.remap")
+require("aw.magma")
+require("aw.themes")

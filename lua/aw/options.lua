@@ -21,11 +21,3 @@ vim.cmd [[
   set guicursor=a:block
 ]]
 
--- customizable commands
---
-vim.api.nvim_create_autocmd("TermOpen", {
-  callback = function()
-    vim.opt.number = false
-    vim.opt.relativenumber = false
-  end,
-})
