@@ -8,7 +8,7 @@ return {
 			ensure_installed = {
 				"python", "sql", -- core
 				"lua", -- nvim config
-				-- "r", "markdown", "rnoweb", "yaml", "markdown_inline", -- r coding
+				"r", "markdown", "rnoweb", "yaml", "markdown_inline", -- r coding
 				"html", "javascript", "css" -- web dev
 			},
 			sync_install = false,
